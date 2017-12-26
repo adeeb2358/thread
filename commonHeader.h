@@ -3,6 +3,10 @@
 
 
 #include <iostream>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 #endif // COMMON_HEADER_H
