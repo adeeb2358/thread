@@ -17,7 +17,7 @@ MAKE_OBJ_DIR        = if [ ! -d "$(OBJ_DIR)/" ]; then  $(MKDIR_P) $(OBJ_DIR); fi
 MAKE_MAIN_EXE_DIR   = if [ ! -d "$(MAIN_EXE)/" ]; then $(MKDIR_P) $(MAIN_EXE); fi;
 
 #variables for debugging
-CCFLAGS             = -g -DEBUG -lpthread
+CCFLAGS             = -g -DEBUG -pthread
 CORE_FILE 			= core
 
 #variables for git commiting
