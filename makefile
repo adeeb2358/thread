@@ -42,7 +42,7 @@ compile:directory main
 
 run:
 	@ ulimit -c unlimited #generate core files in ubuntu
-	@ ./$(MAIN_EXE_FILE)	
+	@ terminator -e ./$(MAIN_EXE_FILE) 
 
 directory:
 	@ $(RM) $(LOG_FILE)

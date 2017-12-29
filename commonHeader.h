@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
+#include "catchTest.h"
 
 
 #endif // COMMON_HEADER_H
