@@ -7,7 +7,15 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
+#include <semaphore.h>
+#include <stdio.h>
+#include <ctime>
+
+/*
+	header file for test framework	
+*/
 #include "catchTest.h"
+
 
 
 #endif // COMMON_HEADER_H
