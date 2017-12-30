@@ -26,13 +26,15 @@ void semaphore_basic(){
 	
 	if(result != 0){
 		perror("Semaphore initialization failed\n");
-		exit(EXIT_FAILURE);
+		return;
+		//exit(EXIT_FAILURE);
 	}
 
 	result = pthread_create(&one_thread,NULL,sem_thread_function,NULL);
 	if(result != 0){
 		perror("Thread Creation Failed");
-		exit(EXIT_FAILURE);
+		return;
+		//exit(EXIT_FAILURE);
 	}
 
 	printf("Input Text and type 'end' to finish\n");
@@ -50,7 +52,8 @@ void semaphore_basic(){
 	result = pthread_join(one_thread,&thread_result);	
 	if(result != 0){
 		perror("Thread join failed\n");
-		exit(EXIT_FAILURE);
+		return;
+		//exit(EXIT_FAILURE);
 	}
 
 	printf("Thread joined\n");
@@ -58,6 +61,3 @@ void semaphore_basic(){
 	return;
 }
 
-/*
-	
-*/
