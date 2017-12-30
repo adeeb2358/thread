@@ -11,8 +11,8 @@ char work_area[WORK_SIZE];
 
 void *sem_thread_function(void *arg){
 	sem_wait(&bin_sem);
-	while(strncmp("end",work_area,3) != 3){
-		printf("You end Input %ld characters\n",strlen(work_area)-1);
+	while(strncmp("end",work_area,3) != 0){
+		printf("You entered Input %ld characters\n",strlen(work_area)-1);
 		sem_wait(&bin_sem);
 	}
 	pthread_exit(NULL);
@@ -37,7 +37,12 @@ void semaphore_basic(){
 
 	printf("Input Text and type 'end' to finish\n");
 	while(strncmp("end",work_area,3) != 0){
-		fgets(work_area,WORK_SIZE,stdin);
+		if(strncmp(work_area,"FAST",4) == 0){
+			sem_post(&bin_sem);
+			strcpy(work_area,"Wheeee......");
+		}else{
+			fgets(work_area,WORK_SIZE,stdin);
+		}
 		sem_post(&bin_sem);
 	}
 
@@ -50,7 +55,9 @@ void semaphore_basic(){
 
 	printf("Thread joined\n");
 	sem_destroy(&bin_sem);
-	exit(EXIT_SUCCESS);
-
 	return;
 }
+
+/*
+	
+*/

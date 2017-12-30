@@ -1,5 +1,6 @@
 #variables for compilation
 CC                  = g++
+FILE_EXTENSION 		= cpp
 SRC_DIR             = ""
 OBJ_DIR             = libs
 MAIN_EXE            = final
@@ -63,7 +64,7 @@ build_main:
 $(OBJ_FILES):
 	
 	@ echo "compiling" $*.cpp $(REDIRECT_COMMAND) $(LOG_FILE)
-	@ $(CC)  $(CCFLAGS) -c  $*.cpp -o $(OBJ_DIR)/$@   $(REDIRECT_COMMAND)  $(LOG_FILE)
+	@ $(CC)  $(CCFLAGS) -c  $*.$(FILE_EXTENSION) -o $(OBJ_DIR)/$@   $(REDIRECT_COMMAND)  $(LOG_FILE)
 
 .PHONY:	clean
 	
