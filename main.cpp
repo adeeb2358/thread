@@ -2,6 +2,8 @@
 #include "functions.h"
 #include "semaphore_functions.h"
 #include "mutex_functions.h"
+#include "detach_thread.h"
+
 
 int main(){
 	int start_s = clock();
@@ -9,7 +11,9 @@ int main(){
 	//thread_caller();
 	//busy_wait_basic();
 	//semaphore_basic();
-	mutex_basic();
+	//mutex_basic();
+	detach_basic();
+
 	int a = 0;
 	int stop_s = clock();
 	std::cout <<"\nExecutionTime:- " <<  (stop_s-start_s)/double(CLOCKS_PER_SEC)*1000;
