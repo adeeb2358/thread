@@ -5,6 +5,8 @@
 #include "detach_thread.h"
 #include "thread_schedule.h"
 #include "cancel_thread.h"
+#include "multiple_threads.h"
+
 int main(){
 	int start_s = clock();
 	
@@ -14,7 +16,8 @@ int main(){
 	//mutex_basic();
 	//detach_basic();
 	//sched_basic();
-	cancel_thread_basic();
+	//cancel_thread_basic();
+	multiple_threads_basic();
 	int a = 0;
 	int stop_s = clock();
 	std::cout <<"\nExecutionTime:- " <<  (stop_s-start_s)/double(CLOCKS_PER_SEC)*1000;

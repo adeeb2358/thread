@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>11</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>/home/maqubex/opt/coverity/bin/cov-build --dir coverity/</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>maqubex-Inspiron-5537</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>linux64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Linux 4.15.0-999-lowlatency x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2017.07 (build c7e331b562 p-milo-push-30112.651)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>maqubex</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/var/www/system_programming/thread</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/home/maqubex/opt/coverity/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/var/www/system_programming/thread/coverity</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/var/www/system_programming/thread/coverity/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/var/www/system_programming/thread/coverity/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>1</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>gcc main.cpp</value>
+    </metric>
+</metrics>
+</coverity>

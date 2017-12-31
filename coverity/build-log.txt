@@ -1,0 +1,1659 @@
+2017-12-31T10:25:21.913773Z|cov-build|23863|info|> cov-build 2017.07 (build c7e331b562 p-milo-push-30112.651)
+2017-12-31T10:25:21.913802Z|cov-build|23863|info|> Coverity Build Capture (64-bit) version 2017.07 on Linux 4.15.0-999-lowlatency x86_64
+2017-12-31T10:25:21.913802Z|cov-build|23863|info|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2017-12-31T10:25:21.913802Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.913814Z|cov-build|23863|info|> Dumping from hostname : maqubex-Inspiron-5537
+2017-12-31T10:25:21.913814Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.913823Z|cov-build|23863|info|> Platform info:
+2017-12-31T10:25:21.913823Z|cov-build|23863|info|> Sysname = Linux
+2017-12-31T10:25:21.913823Z|cov-build|23863|info|> Release = 4.15.0-999-lowlatency
+2017-12-31T10:25:21.913823Z|cov-build|23863|info|> Machine = x86_64
+2017-12-31T10:25:21.913823Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.913823Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.913843Z|cov-build|23863|info|> cov-build command: /home/maqubex/opt/coverity/bin/cov-build --dir coverity/ gcc main.cpp 
+2017-12-31T10:25:21.913853Z|cov-build|23863|info|> cov-build expanded command: /home/maqubex/opt/coverity/bin/cov-build --dir coverity/ gcc main.cpp 
+2017-12-31T10:25:21.914158Z|cov-build|23863|info|> build command: /usr/bin/x86_64-linux-gnu-gcc-7 main.cpp
+2017-12-31T10:25:21.914173Z|cov-build|23863|info|> thunk command: /home/maqubex/opt/coverity/bin/cov-internal-thunk.sh gcc main.cpp
+2017-12-31T10:25:21.914173Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914186Z|cov-build|23863|info|> Set UseSharedCompilation to false.
+2017-12-31T10:25:21.914207Z|cov-build|23863|info|> Set COVERITY_BIN to /home/maqubex/opt/coverity/bin
+2017-12-31T10:25:21.914226Z|cov-build|23863|info|> Set COVERITY_SITE_CC to apt;c++;cc;cl;clang;clang++;csc;csc2;devenv;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;java;javac;javaw;ld;link;msbuild
+2017-12-31T10:25:21.914237Z|cov-build|23863|info|> Set COVERITY_TEMP to /tmp/cov-maqubex/a6c4ff47fa7e38661c49e1a94b78499c
+2017-12-31T10:25:21.914251Z|cov-build|23863|info|> Set COVERITY_COMMON_TEMP to /tmp
+2017-12-31T10:25:21.914262Z|cov-build|23863|info|> Set COVERITY_IDIR to /var/www/system_programming/thread/coverity
+2017-12-31T10:25:21.914302Z|cov-build|23863|info|> Set COVERITY_OUTPUT to /var/www/system_programming/thread/coverity/build-log.txt
+2017-12-31T10:25:21.914322Z|cov-build|23863|info|> Set COVERITY_LOG to /var/www/system_programming/thread/coverity/build-log.txt
+2017-12-31T10:25:21.914339Z|cov-build|23863|info|> Set COVERITY_OUTPUT_ENCODING to US-ASCII
+2017-12-31T10:25:21.914345Z|cov-build|23863|info|> Set COVERITY_SYSTEM_ENCODING to US-ASCII
+2017-12-31T10:25:21.914354Z|cov-build|23863|info|> Set COVERITY_EMIT to /var/www/system_programming/thread/coverity/emit
+2017-12-31T10:25:21.914377Z|cov-build|23863|info|> Set COVERITY_EMIT to /var/www/system_programming/thread/coverity/emit
+2017-12-31T10:25:21.914402Z|cov-build|23863|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2017-12-31T10:25:21.914411Z|cov-build|23863|info|> Append to LD_LIBRARY_PATH /home/maqubex/opt/coverity/jars
+2017-12-31T10:25:21.914421Z|cov-build|23863|info|> Setting COVERITY_LD_LIBRARY_PATH to /home/maqubex/opt/coverity/jars
+2017-12-31T10:25:21.914478Z|cov-build|23863|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2017-12-31T10:25:21.914494Z|cov-build|23863|info|> Set COVERITY_IS_COMPILER to 0
+2017-12-31T10:25:21.914499Z|cov-build|23863|info|> Set COVERITY_TOP_PROCESS to 0
+2017-12-31T10:25:21.914504Z|cov-build|23863|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2017-12-31T10:25:21.914526Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914526Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914526Z|cov-build|23863|info|> Dumping configuration:
+2017-12-31T10:25:21.914526Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914545Z|cov-build|23863|info|> User/default configuration:
+2017-12-31T10:25:21.914545Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|> Configuration read from: command-line
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/coverity_config.xml
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|>     Node: prevent
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|>       Node: dir Value: /var/www/system_programming/thread/coverity
+2017-12-31T10:25:21.914552Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-gcc-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-g++-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-gcc-config-1/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-gcc-config-2/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-g++-config-1/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-g++-config-2/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-ld-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-gcc-config-3/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-g++-config-3/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-javac-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-java-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-apt-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-javaw-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-jsp-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-android-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-web-app-config-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-msvc-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-msvc_devenv-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-msvc_msbuild-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-msvc_link-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-csc-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-csc-config-1/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-clangcc-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-clangcxx-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-javascript-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-html-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-ruby-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-php-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|>     Node: include Value: /home/maqubex/opt/coverity/config/template-python-config-0/coverity_config.xml
+2017-12-31T10:25:21.914582Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-gcc-config-0/coverity_config.xml
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: comp_name Value: gcc
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: comp_translator Value: gcc
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: id Value: gcc-gcc-.*
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: id Value: g++-gcc-.*
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: id Value: g++cc-gcc-.*
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2017-12-31T10:25:21.914655Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-g++-config-0/coverity_config.xml
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: comp_name Value: g++
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: comp_translator Value: g++
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: id Value: g++-g++-.*
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-0/../user_nodefs.h
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: id Value: g++cc-g++-.*
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-0/../user_nodefs.h
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2017-12-31T10:25:21.914734Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-gcc-config-1/coverity_config.xml
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: comp_name Value: gcc-3
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: comp_translator Value: gcc
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: id Value: gcc-gcc-3-.*
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-1/../user_nodefs.h
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: id Value: g++-gcc-3-.*
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-1/../user_nodefs.h
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: id Value: g++cc-gcc-3-.*
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-1/../user_nodefs.h
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2017-12-31T10:25:21.914780Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-gcc-config-2/coverity_config.xml
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: comp_name Value: gcc-4
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: comp_translator Value: gcc
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: id Value: gcc-gcc-4-.*
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-2/../user_nodefs.h
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: id Value: g++-gcc-4-.*
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-2/../user_nodefs.h
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: id Value: g++cc-gcc-4-.*
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-2/../user_nodefs.h
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2017-12-31T10:25:21.914828Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-g++-config-1/coverity_config.xml
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: comp_name Value: g++-3
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: comp_translator Value: g++
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: id Value: g++-g++-3-.*
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-1/../user_nodefs.h
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: id Value: g++cc-g++-3-.*
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-1/../user_nodefs.h
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2017-12-31T10:25:21.914878Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-g++-config-2/coverity_config.xml
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: comp_name Value: g++-4
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: comp_translator Value: g++
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: id Value: g++-g++-4-.*
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-2/../user_nodefs.h
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: id Value: g++cc-g++-4-.*
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-2/../user_nodefs.h
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2017-12-31T10:25:21.914918Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-ld-config-0/coverity_config.xml
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: comp_name Value: ld
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: comp_translator Value: ld
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: id Value: ld-ld-.*
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-ld-config-0/../user_nodefs.h
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2017-12-31T10:25:21.914992Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-gcc-config-3/coverity_config.xml
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: comp_name Value: cc
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: comp_translator Value: gcc
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: id Value: gcc-cc-.*
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-3/../user_nodefs.h
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: id Value: g++-cc-.*
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-3/../user_nodefs.h
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: id Value: g++cc-cc-.*
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-gcc-config-3/../user_nodefs.h
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|>   Node: md5 Value: 5ab1d465abf1e699248ecdb7fe5931c0
+2017-12-31T10:25:21.915058Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-g++-config-3/coverity_config.xml
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: comp_name Value: c++
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: comp_translator Value: g++
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: comp_generic Value: gnu
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: id Value: g++-c++-.*
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-3/../user_nodefs.h
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: id Value: g++cc-c++-.*
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-g++-config-3/../user_nodefs.h
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|>   Node: md5 Value: 92107d6a420ac9dd06caaaf4fa667276
+2017-12-31T10:25:21.915163Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-javac-config-0/coverity_config.xml
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: comp_name Value: javac
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: comp_translator Value: javac
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: comp_lang Value: Static Java
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: comp_generic Value: java
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: id Value: javac-javac-.*
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2017-12-31T10:25:21.915206Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-java-config-0/coverity_config.xml
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: comp_name Value: java
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: comp_translator Value: java
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: comp_lang Value: Static Java
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: comp_generic Value: java
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: id Value: java-java-.*
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2017-12-31T10:25:21.915248Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-apt-config-0/coverity_config.xml
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: comp_name Value: apt
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: comp_translator Value: apt
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: comp_lang Value: Static Java
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: comp_generic Value: java
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: id Value: apt-apt-.*
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2017-12-31T10:25:21.915280Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-javaw-config-0/coverity_config.xml
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: comp_name Value: javaw
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: comp_translator Value: javaw
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: comp_lang Value: Static Java
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: comp_generic Value: java
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: id Value: javaw-javaw-.*
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2017-12-31T10:25:21.915311Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-jsp-config-0/coverity_config.xml
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: comp_translator Value: jsp
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: comp_generic Value: java
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2017-12-31T10:25:21.915347Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-android-config-0/coverity_config.xml
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: comp_translator Value: android
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: comp_generic Value: java
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.xml$
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|>   Node: md5 Value: 07be021ce31fbf4d039bdd2f06118c8b
+2017-12-31T10:25:21.915382Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-web-app-config-config-0/coverity_config.xml
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-web-app-config-0
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: comp_translator Value: web-app-config
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: comp_generic Value: web_app_config
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: file_include_pattern Value: a^
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-0-.*
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|>   Node: md5 Value: 4b5ee114698aa398279ca05a07bbd880
+2017-12-31T10:25:21.915416Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-msvc-config-0/coverity_config.xml
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: comp_name Value: cl
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: comp_translator Value: msvc
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: comp_generic Value: msvc
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: id Value: msvc-cl-.*
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-msvc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_instrument_config_version
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: 3
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_deployment_path
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_header_path
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_name
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: x64
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: libci-runtime-x64.lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: x86
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: libci-runtime-x86.lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_path
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: id Value: msvc_cxx-cl-.*
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-msvc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_instrument_config_version
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: 3
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_deployment_path
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_header_path
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_name
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: x64
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: libci-runtime-x64.lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: x86
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: libci-runtime-x86.lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_path
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|>   Node: md5 Value: 7be94be8fa739ed4bbd4d6878dcf05b2
+2017-12-31T10:25:21.915454Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-msvc_devenv-config-0/coverity_config.xml
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: comp_name Value: devenv
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: comp_translator Value: msvc_devenv
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: comp_generic Value: msvc
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: id Value: msvc_devenv-devenv-.*
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-msvc_devenv-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
+2017-12-31T10:25:21.915636Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-msvc_msbuild-config-0/coverity_config.xml
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: comp_name Value: msbuild
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: comp_translator Value: msvc_msbuild
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: comp_generic Value: msvc
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-msvc_msbuild-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
+2017-12-31T10:25:21.915666Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-msvc_link-config-0/coverity_config.xml
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: comp_name Value: link
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: comp_translator Value: msvc_link
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: comp_generic Value: msvc
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: id Value: msvc_link-link-.*
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-msvc_link-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: var_name Value: cov_instrument_config_version
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: var_value Value: 3
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_deployment_path
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_header_path
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_name
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: platform_name Value: x64
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: var_value Value: libci-runtime-x64.lib
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: platform_name Value: x86
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: var_value Value: libci-runtime-x86.lib
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: instrument_variable
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: var_name Value: cov_lib_path
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>           Node: cond_platform_value
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: platform_name Value: all
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|>   Node: md5 Value: b934bab21dd57b9bd4e87b6bc04c90ff
+2017-12-31T10:25:21.915696Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-csc-config-0/coverity_config.xml
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: comp_name Value: csc
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: comp_translator Value: csc
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: comp_lang Value: C#
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: comp_generic Value: csc
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: id Value: csc-csc-.*
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2017-12-31T10:25:21.915785Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-csc-config-1/coverity_config.xml
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: comp_name Value: csc2
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: comp_translator Value: csc
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: comp_lang Value: C#
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: comp_generic Value: csc
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: id Value: csc-csc2-.*
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2017-12-31T10:25:21.915814Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-clangcc-config-0/coverity_config.xml
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: comp_name Value: clang
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: comp_translator Value: clangcc
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: comp_generic Value: clang
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: id Value: clangcc-clang-.*
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: id Value: clangcxx-clang-.*
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: id Value: clangcxxcc-clang-.*
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: id Value: clangobjc-clang-.*
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: id Value: clangobjcxx-clang-.*
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcc-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|>   Node: md5 Value: 15fd1279f5d22c97f5ebadaac9bf1e6b
+2017-12-31T10:25:21.915842Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-clangcxx-config-0/coverity_config.xml
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: comp_name Value: clang++
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: comp_translator Value: clangcxx
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: comp_lang Value: C/C++
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: comp_generic Value: clang
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: id Value: clangcxx-clang++-.*
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcxx-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: id Value: clangcxxcc-clang++-.*
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcxx-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: id Value: clangobjc-clang++-.*
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcxx-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: id Value: clangobjcxx-clang++-.*
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: opt_preinclude_file Value: /home/maqubex/opt/coverity/config/template-clangcxx-config-0/../user_nodefs.h
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|>   Node: md5 Value: a5fffed9db920f7281ac5687f6514630
+2017-12-31T10:25:21.915901Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-javascript-config-0/coverity_config.xml
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: comp_translator Value: javascript
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: comp_generic Value: javascript
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib)$
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|>   Node: md5 Value: 27a00c60dd27cc03e3adb984b7a5dffd
+2017-12-31T10:25:21.915953Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-html-config-0/coverity_config.xml
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: comp_translator Value: html
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: comp_generic Value: javascript
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|>   Node: md5 Value: 19397d11982615e58d756dc918e6d3c2
+2017-12-31T10:25:21.915983Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-ruby-config-0/coverity_config.xml
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: comp_translator Value: ruby
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: comp_generic Value: ruby
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.rb$
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|>   Node: md5 Value: e05b5d016abf502f4374682646f80501
+2017-12-31T10:25:21.916014Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-php-config-0/coverity_config.xml
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: comp_translator Value: php
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: comp_generic Value: php
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.php$
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|>   Node: md5 Value: 8bf88b4c45e978fe7f5e31c6d61cde3a
+2017-12-31T10:25:21.916051Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|> Configuration read from: /home/maqubex/opt/coverity/config/template-python-config-0/coverity_config.xml
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|> Node: coverity
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>   Node: cit_version Value: 1
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>   Node: config
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>     Node: build
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>       Node: compiler
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: template_compiler Value: true
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: comp_translator Value: python
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: comp_lang Value: Non Compiled
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: comp_generic Value: python
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: file_include_pattern Value: ^.*\.py$
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>       Node: options
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>         Node: begin_command_line_config
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2017-12-31T10:25:21.916082Z|cov-build|23863|info|> 
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|> [WARNING] Failed to run /bin/sh -c "echo hello" with LD_PRELOAD set to:
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|>   /home/maqubex/opt/coverity/bin/libcapture-linux64-${PLATFORM}.so
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|> Output was:
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|> ERROR: ld.so: object '/home/maqubex/opt/coverity/bin/libcapture-linux64-${PLATFORM}.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|> hello
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|> 
+2017-12-31T10:25:21.917276Z|cov-build|23863|warning|> Exit status was: code 0
+2017-12-31T10:25:21.917315Z|cov-build|23863|info|> Will try without ${PLATFORM} next.
+2017-12-31T10:25:21.918174Z|cov-build|23863|info|> Using LD_PRELOAD = /home/maqubex/opt/coverity/bin/libcapture-linux64-x86_64.so
+[23868] CWD: /var/www/system_programming/thread
+[23868] COMPILING: /home/maqubex/opt/coverity/bin/cov-translate gcc main.cpp
+Encountered compiler /usr/bin/x86_64-linux-gnu-gcc-7 for the first time, configuring it
+* Configuring /usr/bin/gcc as a C compiler
+[STATUS] gcc-config-0: Running sanity tests on native compiler
+[STATUS] gcc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|
+[STATUS] gcc-config-0: Retrieving values for macros
+* Configuring /usr/bin/gcc as a C++ compiler
+[STATUS] g++-config-0: Running sanity tests on native compiler
+[STATUS] g++-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++-config-0: Retrieving values for macros
+* Configuring /usr/bin/gcc as a C compiler
+[STATUS] g++cc-config-0: Running sanity tests on native compiler
+[STATUS] g++cc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-0: Retrieving values for macros
+* Configuring /usr/bin/g++ as a C++ compiler
+[STATUS] g++-config-1: Running sanity tests on native compiler
+[STATUS] g++-config-1: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++-config-1: Retrieving values for macros
+* Configuring /usr/bin/g++ as a C compiler
+[STATUS] g++cc-config-1: Running sanity tests on native compiler
+[STATUS] g++cc-config-1: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-1: Retrieving values for macros
+* Configuring /usr/bin/ld as a C++ compiler
+Added template compiler configuration instance /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/coverity_config.xml
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/gcc-config-0/coverity_config.xml
+    Node: include Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/coverity_config.xml
+    Node: include Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-0/coverity_config.xml
+    Node: include Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-1/coverity_config.xml
+    Node: include Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-1/coverity_config.xml
+    Node: include Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/ld-config-0/coverity_config.xml
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/gcc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_name Value: gcc-7
+        Node: comp_name Value: x86_64-linux-gnu-gcc-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: gcc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C compiler
+        Node: comp_next_type Value: g++
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: gcc-gcc-7.2.0-c39f5e99865679238ada901ce7a823da-0
+        Node: version Value: 7.2.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: gcc-gcc-7.2.0-c39f5e99865679238ada901ce7a823da-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: template_config_option_id Value: gcc-gcc-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: sysroot_dir Value: /
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/gcc-config-0/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/gcc-config-0/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.2.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/gcc-config-0/../user_nodefs.h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 8ce6bd05f535c4f34cce1c8b991133d0
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_name Value: gcc-7
+        Node: comp_name Value: x86_64-linux-gnu-gcc-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_cxx Value: true
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++-gcc-7.2.0-c39f5e99865679238ada901ce7a823da-0
+        Node: version Value: 7.2.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++-gcc-7.2.0-c39f5e99865679238ada901ce7a823da-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: template_config_option_id Value: g++-gcc-.*
+        Node: sysinclude_dir Value: /usr/include/c++/7
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu/c++/7
+        Node: sysinclude_dir Value: /usr/include/c++/7/backward
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: sysroot_dir Value: /
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.2.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --exceptions
+        Node: prepend_arg Value: --arg_dependent_overload
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/../user_nodefs.h
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: 61409d81733577dd89efec017639ff87
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_name Value: gcc-7
+        Node: comp_name Value: x86_64-linux-gnu-gcc-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++cc-gcc-7.2.0-c39f5e99865679238ada901ce7a823da-0
+        Node: version Value: 7.2.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-gcc-7.2.0-c39f5e99865679238ada901ce7a823da-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: template_config_option_id Value: g++cc-gcc-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: sysroot_dir Value: /
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-0/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-0/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.2.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-0/../user_nodefs.h
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+            Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 306b72b6e62385852c142d98e25b2d07
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-1/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_name Value: g++-7
+        Node: comp_name Value: x86_64-linux-gnu-g++-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_cxx Value: true
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++-g++-7.2.0-c39f5e99865679238ada901ce7a823da-1
+        Node: version Value: 7.2.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++-g++-7.2.0-c39f5e99865679238ada901ce7a823da-1
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: template_config_option_id Value: g++-g++-.*
+        Node: sysinclude_dir Value: /usr/include/c++/7
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu/c++/7
+        Node: sysinclude_dir Value: /usr/include/c++/7/backward
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: sysroot_dir Value: /
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-1/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-1/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.2.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --exceptions
+        Node: prepend_arg Value: --arg_dependent_overload
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-1/../user_nodefs.h
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: 0f5e7ab06239b77ea9b0a640fc785ca8
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-1/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_name Value: g++-7
+        Node: comp_name Value: x86_64-linux-gnu-g++-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++cc-g++-7.2.0-c39f5e99865679238ada901ce7a823da-1
+        Node: version Value: 7.2.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-g++-7.2.0-c39f5e99865679238ada901ce7a823da-1
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: template_config_option_id Value: g++cc-g++-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: sysroot_dir Value: /
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-1/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-1/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.2.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++cc-config-1/../user_nodefs.h
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+            Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 6a419d36a131bb9947afb33c1f1e70c4
+Configuration read from: /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/ld-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: ld
+        Node: comp_name Value: x86_64-linux-gnu-ld
+        Node: comp_name Value: x86_64-linux-gnu-ld.bfd
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: ld
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C/C++ Linker
+        Node: comp_cxx Value: true
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: ld-ld-c39f5e99865679238ada901ce7a823da-0
+        Node: is_compiler Value: false
+        Node: is_linker Value: true
+      Node: options
+        Node: id Value: ld-ld-c39f5e99865679238ada901ce7a823da-0
+        Node: instrument_predicates
+          Node: if
+            Node: conditions
+              Node: cond
+                Node: contains_regex Value: (^|\s)(\-Ur|\-r|\-\-relocatable|\-i)(\s|$)
+            Node: then
+          Node: elif
+            Node: conditions
+              Node: cond
+                Node: contains_regex Value: /crtend\.o(\s|$)
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+                Node: precedes_regex Value: /crtend\.o(\s|$)
+          Node: elif
+            Node: conditions
+              Node: cond
+                Node: contains_regex Value: \-lc\b
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+                Node: follows_regex Value: \-lc\b
+          Node: else
+            Node: insert
+              Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+              Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_ld
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime --no-as-needed -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/maqubex/opt/coverity/lib
+        Node: template_config_option_id Value: ld-ld-.*
+        Node: begin_command_line_config
+  Node: md5 Value: 50a7cd9347f0783addba8f92c16778af
+COV_TRANSLATE EXPANDED ARGS: "main.cpp"
+[STATUS] Compiling main.cpp
+/home/maqubex/opt/coverity/bin/cov-emit --dir=/var/www/system_programming/thread/coverity --ignore_path=/tmp/cov-maqubex/a6c4ff47fa7e38661c49e1a94b78499c/cov-configure --ignore_path=/tmp/cov-maqubex/a6c4ff47fa7e38661c49e1a94b78499c/cov-maqubex/37d1bbbe94219e5f4fa861031ffdde82 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 7.2.0 --char_bit_size=8 --gnu_carriage_return_line_terminator --wchar_t_keyword --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --macro_stack_pragmas --exceptions --arg_dependent_overload --inline_keyword --no_predefines --pre_preinclude /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/coverity-macro-compat.h --pre_preinclude /var/www/system_programming/thread/coverity/emit/maqubex-Inspiron-5537/config/c39f5e99865679238ada901ce7a823da/g++-config-0/coverity-compiler-compat.h --preinclude /home/maqubex/opt/coverity/config/template-gcc-config-0/../user_nodefs.h --c++ --allow_incompat_throw --new_array_args --type_traits_helpers --c++14 --gnu_version 70200 --no_trigraphs --sys_include /usr/include/c++/7 --sys_include /usr/include/x86_64-linux-gnu/c++/7 --sys_include /usr/include/c++/7/backward --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed --sys_include /usr/include/x86_64-linux-gnu --sys_include /usr/include -D__NO_INLINE__ --type_sizes=e16Pdlx8fiw4s2 --type_alignments=e16Pdlx8fiw4s2 --size_t_type=m --ptrdiff_t_type=l main.cpp 
+Emit for file '/var/www/system_programming/thread/main.cpp' complete.
+[23867] EXECUTING: gcc main.cpp
+[25316] EXECUTING: /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE main.cpp -quiet -dumpbase main.cpp -mtune=generic -march=x86-64 -auxbase main -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccvD39W2.s
+[25318] EXECUTING: /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJAXlxy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/cczSBQJi.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+[25319] EXECUTING: /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJAXlxy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/cczSBQJi.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+2017-12-31T10:25:32.015217Z|cov-build|23863|info|> 
+2017-12-31T10:25:32.015217Z|cov-build|23863|info|> Build time (cov-build overall): 00:00:10.136716
+2017-12-31T10:25:32.015217Z|cov-build|23863|info|> 
+2017-12-31T10:25:32.015665Z|cov-build|23863|info|> Build time (C/C++ emits total): 00:00:09.650988
+2017-12-31T10:25:32.015665Z|cov-build|23863|info|> 
+2017-12-31T10:25:32.015665Z|cov-build|23863|info|> 
+2017-12-31T10:25:32.015705Z|cov-build|23863|info|> [WARNING] Build command gcc main.cpp exited with code 1. Please verify that the build completed successfully.
+2017-12-31T10:25:32.015705Z|cov-build|23863|info|> Emitted 1 C/C++ compilation units (100%) successfully
+2017-12-31T10:25:32.015705Z|cov-build|23863|info|> 
+2017-12-31T10:25:32.015705Z|cov-build|23863|info|> 1 C/C++ compilation units (100%) are ready for analysis
+2017-12-31T10:25:32.015705Z|cov-build|23863|info|>  For more details, please look at: 
+2017-12-31T10:25:32.015705Z|cov-build|23863|info|>     /var/www/system_programming/thread/coverity/build-log.txt
